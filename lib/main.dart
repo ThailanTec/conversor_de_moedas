@@ -8,7 +8,7 @@ const request = 'https://api.hgbrasil.com/finance?key=d838ba89';
 void main() async {
   runApp(MaterialApp(
     home: Home(),
-    theme: ThemeData( hintColor: Colors.amberAccent,
+    theme: ThemeData( hintColor: Colors.amber,
         inputDecorationTheme: InputDecorationTheme(
             enabledBorder: OutlineInputBorder(
                 borderSide: BorderSide(color: Colors.white)))),
